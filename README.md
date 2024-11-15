@@ -1,6 +1,6 @@
 ## Proje Adı
 
-Emre Gül - Octohaus - Full Stack Projesi
+Emre Gül - Full Stack Projesi
 
 ## Başlangıç
 
