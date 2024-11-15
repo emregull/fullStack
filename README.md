@@ -1,80 +1,63 @@
-## Proje Adı
+## Project Name
 
-Emre Gül - Full Stack Projesi
+Emre Gül - Full Stack Project
 
-## Başlangıç
+## Getting Started
 
-Projeyi çalıştırmak için aşağıdaki adımları takip edin.
+Follow the steps below to run the project.
 
-## Gereksinimler
+## Requirements
 
 - Docker
 
-## Kurulum
+## Setup
 
-Bu depoyu indirin veya klonlayın:
+Download or clone this repository:
 
-```bash
 git clone https://github.com/emregull/fullStack.git
-```
 
-Gerekli composer dosyalarını indirin:
+Download the required Composer files:
 
-```bash
 cd next-backend
 composer install
-```
 
-Docker container'larını başlatmak için:
+Start the Docker containers:
 
-```bash
 cd docker
 docker-compose up -d
-```
 
-Laravel projesinin ana dizinine gidin ve migration'ları çalıştırın:
+Navigate to the root directory of the Laravel project and run the migrations:
 
-```bash
 cd ..
 php artisan migrate
-```
 
-Laravel sunucusunu başlatın:
+Start the Laravel server:
 
-```bash
 php artisan serve
-```
 
-.env dosyasını .env.example gibi düzenleyin yoksa oluşturun:
+Edit the .env file like .env.example or create it if it doesn't exist:
 
-```bash
 .env
-```
 
-(Key oluşturmanız gerekebilir laravel uyarısı ile kolayca 'generate' edip oluşturabilirsiniz.)
+(You might need to generate a key if prompted by Laravel. You can do this easily by running `php artisan key:generate`.)
 
-```bash
- http://localhost:8000
-```
+Access the application at:
 
-Next.js dosyalarını indirin:
+http://localhost:8000
 
-```bash
+Install the Next.js dependencies:
+
 npm install
-```
 
-Ardından Next.js'i başlatın:
+Then, start Next.js:
 
-```bash
 npm run dev
-```
 
-Tarayıcıda http://localhost:3000 adresine gidip uygulamayı görüntüleyebilirsiniz.
+Open your browser and go to http://localhost:3000 to view the application.
 
-yada
+Alternatively, access phpMyAdmin in your browser at:
 
-Tarayıcıda http://localhost:8080 adresine gidip phpmyadmin'e ulaşabilirsiniz.
+http://localhost:8080
 
-Kullanıcı Adı: `octohaus`
-
-Parola: `octohaus`
+Username: octohaus
+Password: octohaus
