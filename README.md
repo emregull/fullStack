@@ -15,7 +15,7 @@ Projeyi çalıştırmak için aşağıdaki adımları takip edin.
 Bu depoyu indirin veya klonlayın:
 
 ```bash
-git clone https://github.com/emregull/octohaus.git
+git clone https://github.com/emregull/fullStack.git
 ```
 
 Gerekli composer dosyalarını indirin:
